@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .img-i {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+        padding: 0.4em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-dark bg-gradient">
+      <div class="container text-left my-1">
+        <div class="badge bg-black col-lg-12">
+          <h1 сlass="fw-bolder btn">JavaScript</h1>
+        </div>
+        <p class="fst-italic text-light fs-2">
+          «БЕЗОПАСНЫЙ» ЯЗЫК ПРОГРАММИРОВАНИЯ
+        </p>
+        <div class="badge bg-light img-i">
+          <div class="container">
+            <div class="btn-group">
+              <a
+                href="https://en.wikipedia.org/wiki/Web_development"
+                target="_blank"
+                class="btn btn-dark fs-3"
+                >WEB
+              </a>
+              <a
+                href="https://en.wikipedia.org/wiki/Mobile_app_development"
+                target="_blank"
+                type="button"
+                class="btn btn-dark fs-3"
+                >MOBILE
+              </a>
+              <a
+                href="https://uk.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD"
+                type="button"
+                class="btn btn-dark fs-3"
+                target="_blank"
+                >DESIGN
+              </a>
+              <a
+                href="https://uk.wikipedia.org/wiki/%D0%94%D0%B5%D1%81%D0%BA%D1%82%D0%BE%D0%BF"
+                type="button"
+                class="btn btn-dark fs-3"
+                target="_blank"
+                >DESKTOP
+              </a>
+            </div>
+          </div>
+
+          <div class="container text-left">
+            <img
+              class="my-1"
+              src="banner.png"
+              alt="banner"
+              height="150x"
+              width="465px"
+            />
+          </div>
+        </div>
+
+        <li class="text-light fs-3">
+          В браузере для JavaScript доступно всё, что связано с веб-страницами,
+          взаимодействием с пользователем и сервером (обменом информации и
+          отправлением запросов на удалённые сервера(Технология AJAX и COMET)
+        </li>
+        <li class="text-light fs-3">
+          Так же может получать и устанавливать куки, запоминать их, задавать
+          вопросы пользователю.
+        </li>
+        <li class="text-light fs-3">
+          Запоминать данные на стороне клиента (Local Storage)
+        </li>
+        <div class="my-3">
+          <div class="badge bg-black col-lg-12">
+            <h1 class="fw-bold">Как работают движки?</h1>
+          </div>
+        </div>
+
+        <p class="text-light fs-3">
+          I)Движок (встроенный, если это браузер) читает («парсит») текст
+          скрипта. II)Затем он преобразует («компилирует») скрипт в машинный
+          язык. III)После этого машинный код запускается и работает достаточно
+          быстро.
+        </p>
+
+        <p class="text-light fs-3">
+          Движок применяет оптимизации на каждом этапе. Он даже просматривает
+          скомпилированный скрипт во время его работы анализируя проходящие
+          через него данные, и применяет оптимизации к машинному коду, полагаясь
+          на полученные знания. В результате скрипты работают очень быстро.
+        </p>
+        <img src="logo.jpg" alt="logo" height="210px" width="325px" />
+        <br />
+        <div class="badge bg-black col-lg-3 mx-auto">
+          <h1 class="fw-bolder"></h1>
+        </div>
+        <p class="text-light fs-1">
+          <strong> В JavaScript есть 8 основных типов данных </strong>
+        </p>
+        <p class="text-light font-monospace text-decoration-underline fs-1">
+          1-7 примитивные
+        </p>
+
+        <p class="text-light fs-3">
+          1)number для любых чисел: целочисленных или чисел с плавающей точкой;
+          целочисленные значения ограничены диапазоном ±(253-1)
+          <br />
+          2)bigint для целых чисел произвольной длины.
+          <br />
+          3)string для строк. Строка может содержать ноль или больше символов,
+          нет отдельного символьного типа.<br />
+          4)boolean для true\false. <br />
+          5)null для неизвестных значений – отдельный тип, имеющий одно значение
+          null. <br />
+          6)undefined для неприсвоенных значений – отдельный тип, имеющий одно
+          значение undefined. 7)symbol для уникальных идентификаторов.
+          <br />
+          8)object для более сложных структур данных.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
